@@ -1,1 +1,4 @@
 
+Face recognition (FR) is a method of identifying or verifying the identity of an individual using their face. Face recognition systems can be used to identify people in photos, video, or in real-time. Law enforcement may also use mobile devices to identify people during police stops. 
+For an FR model to perform well, it must learn to extract such features from images in a way that would place all images belonging to the same face close together (in the feature space), and images of different faces far apart. In other words, we need the model to reduce within-class distances and increase between-class distances of data points in the feature space. 
+The triplet loss is probably the best-known loss function for face recognition. The data is arranged into triplets of images: anchor, positive example, negative example. The images are passed through a common network and the aim is to reduce the anchor-positive distance while increasing the anchor-negative distance.
